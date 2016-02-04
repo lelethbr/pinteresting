@@ -13,7 +13,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.5.3'
 gem 'paperclip', github: 'thoughtbot/paperclip'
-gem 'aws-sdk'
+gem 'aws-sdk', '< 2.0'
 
 group :development, :test do
 	gem 'sqlite3'
